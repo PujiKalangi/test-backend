@@ -1,0 +1,25 @@
+GET http://localhost:5001/places
+
+###
+GET http://localhost:5001/place/1
+
+###
+POST http://localhost:5001/place
+Content-Type: application/json
+
+{
+    "name": "destination"
+}
+
+###
+POST http://localhost:5001/place
+Content-Type: application/json
+
+{
+    "name": "restaurant"
+}
+
+
+###
+GET http://localhost:5001/travels
+
